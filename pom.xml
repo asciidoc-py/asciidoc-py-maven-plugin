@@ -38,6 +38,10 @@
   <developerConnection>scm:git@github.com:asciidoc/asciidoc-maven-plugin.git</developerConnection>
   <url>https://github.com/asciidoc/asciidoc-maven-plugin</url>
  </scm>
+ <issueManagement>
+  <system>GitHub</system>
+  <url>https://github.com/asciidoc/asciidoc-maven-plugin/issues</url>
+ </issueManagement>
  <dependencies>
   <dependency>
    <groupId>org.apache.maven</groupId>
@@ -267,16 +271,16 @@
   <snapshotRepository>
    <id>AsciiDocMavenPluginSnapshotRepository</id>
    <name>AsciiDoc Maven Plugin Snapshot Repository</name>
-   <url>file:///${basedir}/../repository/snapshots</url>
+   <url>file:///${basedir}/../asciidoc-maven-plugin-gh-pages/repository/snapshots</url>
   </snapshotRepository>
   <repository>
    <id>AsciiDocMavenPluginReleaseRepository</id>
    <name>AsciiDoc Maven Plugin Release Repository</name>
-   <url>file:///${basedir}/../repository/releases</url>
+   <url>file:///${basedir}/../asciidoc-maven-plugin-gh-pages/repository/releases</url>
   </repository>
   <site>
    <id>website</id>
-   <url>file:///${basedir}/../asciidoc-maven-plugin-website</url>
+   <url>file:///${basedir}/../asciidoc-maven-plugin-gh-pages</url>
   </site>
  </distributionManagement>
 </project>
