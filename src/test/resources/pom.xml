@@ -17,7 +17,7 @@
   <pluginRepository>
    <id>AsciiDocMavenPluginSnapshotRepository</id>
    <name>AsciiDoc Maven Plugin Snapshot Repository</name>
-   <url>file://${basedir}/../../../repository/snapshots</url>
+   <url>http://asciidoc.github.com/asciidoc-maven-plugin/repository/snapshots</url>
   </pluginRepository>
  </pluginRepositories>
  <dependencies>
