@@ -5,7 +5,7 @@
   <slf4j.version>1.6.4</slf4j.version>
   <logback.version>1.0.0</logback.version>
   <log4j.version>1.2.16</log4j.version>
-  <junit.version>4.10</junit.version>
+  <junit.version>4.13.1</junit.version>
  </properties>
  <groupId>asciidoc</groupId>
  <artifactId>asciidoc-maven-plugin-test</artifactId>
